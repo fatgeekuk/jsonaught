@@ -1,7 +1,7 @@
 # jsonaught
 JSON recursive search library
 
-If you have a large and deep JSON structure and you and you want to find something in it, this is the library for you.
+If you have a large and deep JSON structure and you want to find something in it, this is the library for you.
 
 ## Example
 
