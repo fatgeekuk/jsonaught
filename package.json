@@ -1,0 +1,32 @@
+{
+  "name": "jsonaught",
+  "version": "0.1.0",
+  "author": {
+    "name": "Peter Morris",
+    "email": "peter.r.morris@gmail.com",
+    "url": "http://fatgeekuk.org"
+  },
+  "license": "OSL-3.0",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "./node_modules/.bin/mocha --compilers js:babel/register --reporter spec"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:fatgeekuk/jsonaught.git"
+  },
+  "description": "A JSON searcher, mainly intended to speed up writing react component tests",
+  "keywords": ["json", "searcher"],
+  "man" : [ "./man/jsonaught.1" ],
+  "main": "lib/jsonaught.js",
+  "dependencies": {
+    "core-js": "^0.6.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0",
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
