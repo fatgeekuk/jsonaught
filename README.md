@@ -1,5 +1,5 @@
 # jsonaught
-JSON recursive search library
+JSON recursive search library (available on npm [jsonaught](https://www.npmjs.com/search?q=jsonaught)
 
 If you have a large and deep JSON structure and you want to find something in it, this is the library for you.
 
