@@ -3,6 +3,12 @@ JSON recursive search library
 
 If you have a large and deep JSON structure and you want to find something in it, this is the library for you.
 
+## Installation
+
+```bash
+$ npm install jsonaught
+```
+
 ## Example
 
 Say you have an annoying JSON structure.
